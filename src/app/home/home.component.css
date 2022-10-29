@@ -1,0 +1,25 @@
+body{
+    
+    background-image: url(https://c4.wallpaperflare.com/wallpaper/227/64/929/light-line-color-wallpaper-preview.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+}
+.name{
+    text-align: center;
+    text-shadow: 20%;
+    text-size-adjust: 10%;
+    position: relative;
+}
+.name img{
+    position: absolute;
+    top: -40px;
+    right: 30px;
+}
+.name h1{
+    position: absolute;
+    top: 190px;
+    left: 20px;
+}
