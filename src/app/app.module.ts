@@ -10,6 +10,8 @@ import { LoginComponent } from './login/login.component';
 import { CourcesComponent } from './cources/cources.component';
 import { HtmlComponent } from './html/html.component';
 import { FormsModule } from '@angular/forms';
+import { DetailComponent } from './detail/detail.component';
+import { HttpClientModule } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -19,12 +21,14 @@ import { FormsModule } from '@angular/forms';
     RegistrationComponent,
     LoginComponent,
     CourcesComponent,
-    HtmlComponent
+    HtmlComponent,
+    DetailComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
+    HttpClientModule
     
   ],
   providers: [],
